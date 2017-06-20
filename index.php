@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html>
+<html>
  <head>
   <meta charset="UTF-8">
   <title></title>
@@ -12,7 +12,7 @@
  </style>
  <body>
      <?php
-     echo "hello";
+     echo "hello friend";
      ?>
  </body>
 </html>
