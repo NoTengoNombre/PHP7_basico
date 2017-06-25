@@ -34,13 +34,13 @@
    </form>
   </div>
   <?php
-  if (!isset($_GET['x']) && (!isset($_GET['y']))) {
+  if (!isset($_REQUEST['x']) && (!isset($_REQUEST['y']))) {
       echo 'Define los puntos';
   } else {
-      echo '1º valor : ' . $_GET['x'];
+      echo '1º valor : ' . $_REQUEST['x'];
       echo '<br>';
-      echo '2º valor : ' . $_GET['y'];
-      if ($_GET['x'] == 60 && $_GET['y'] == 60) {
+      echo '2º valor : ' . $_REQUEST['y'];
+      if ($_REQUEST['x'] == 60 && $_REQUEST['y'] == 60) {
           echo '<h1>Diana</h1>';
       }
   }
